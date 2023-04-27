@@ -1,4 +1,4 @@
-import { Heroes } from "../app/basedatos/heroes.js";
+import { Heroes } from "../app/data/heroes.js";
 
 
 export const getHeroeById = (id) => Heroes.find( (heroe) => heroe.id === id );
